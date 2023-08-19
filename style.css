@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+
+    background: hsla(340, 80%, 69%, 1);
+
+    background: linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(340, 80%, 69%, 1) 0%, hsla(15, 93%, 71%, 1) 100%);
+
+
+    /* background: linear-gradient(360deg, #172A3A 10%, #004346 35%, #daa0de 100%); */
+    overflow: auto;
+    color: white;
+    font-family: Marker Felt, fantasy;
+    font-stretch: extra-expanded;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width:800px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    /* margin-left: 30px; */
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    font-family: Marker Felt, fantasy;
+    font-stretch: extra-expanded;
+    background: linear-gradient(#ffaabf, #ff837d);
+    box-shadow: 4px 8px 2px 1px rgba(16, 16, 16, 0.7);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: linear-gradient(#f37b99, #f96a63);
+}
+
+.btn:active{
+    transform: translateY(4px);
+    box-shadow: 4px 8px 2px 1px rgba(34, 34, 35, 0.2);
+}
+
+.header {
+    margin: 50px 0;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 7px 7px 5px rgba(31, 29, 29, 0.5);
+    color:#ffe6e4;
+    
+ 
+}
+
+textarea {
+    margin:30px 0px 4px;
+    /* padding:80px; */
+    height:150px;
+    width:50%;
+    background: linear-gradient(#f7b0c0, #efb7b4);
+    border:none;
+    padding-left: 15px;
+    padding-top: 10px;
+    /* text-align:left;
+    padding: 10px;
+     */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+
+}
+
+.delete-button {
+    padding: 2px 4px 2px 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Marker Felt, fantasy;
+    font-stretch: extra-expanded;
+    background: linear-gradient(#ff5c85, #fb6c64);
+    box-shadow: 4px 8px 2px 1px rgba(16, 16, 16, 0.7);
+    cursor: pointer;
+}
+
+
+.delete-button:hover{
+    background: linear-gradient(#f37b99, #f96a63);
+}
+
+.delete-button:active{
+    transform: translateY(4px);
+    box-shadow: 4px 8px 2px 1px rgba(34, 34, 35, 0.2);
+}
