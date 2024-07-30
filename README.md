@@ -1,3 +1,3 @@
 # NotesApp
 A simple Notes App using Javascript, HTML and CSS
-deployed version:  https://stackdevpro.github.io/NotesApp/
+deployed version:  https://simran-rm.github.io/NotesApp/
